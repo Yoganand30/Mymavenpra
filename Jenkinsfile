@@ -9,7 +9,7 @@ pipline{
           git branch:'master',url:'https://github.com/Yoganand30/Mymavenpra.git'
         }
       }
-        stage('Build"){
+        stage('Build'){
           steps{
             sh 'mvn compile package'
           }
